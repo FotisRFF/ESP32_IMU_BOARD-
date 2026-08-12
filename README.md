@@ -26,7 +26,7 @@ An open-source, ultra-compact wireless motion-capture node engineered for wearab
 
 The system is designed around multiple wearable sensor nodes communicating with a central receiver through ESP-NOW.
 
-```text
+<pre>
  ┌─────────────┐
  │  Head Node  │
  └──────┬──────┘
@@ -49,31 +49,59 @@ The system is designed around multiple wearable sensor nodes communicating with 
  └─────────┘    │ Nodes   │
                 │ (5–10)  │
                 └─────────┘
-PCB Layer Architecture
+</pre>
 
-Designed in Altium Designer, the 4-layer PCB features a compact high-density layout optimized for clean power distribution and reliable signal return paths.
+---
 
-Layer	Designation	Description
-L1	SIG	Primary component placement and top signal routing
-L2	GND	Solid internal ground plane
-L3	PWR	Dedicated internal power distribution plane
-L4	SIG + GND	Bottom signal routing and secondary ground pour
-Layer Previews
-<details> <summary><b>Click to expand layer views</b></summary>
-L1 — Signal
-<img width="100%" alt="L1 SIG" src="https://github.com/user-attachments/assets/b8c8f218-e328-44df-8001-f4d3a7ccfeab">
-L2 — Ground
-<img width="100%" alt="L2 GND" src="https://github.com/user-attachments/assets/e4a734b8-dea2-48d9-a056-546f5d2985f7">
-L3 — Power
-<img width="100%" alt="L3 PWR" src="https://github.com/user-attachments/assets/49537f79-96bf-4cfc-a1e3-ba3ef9e25abb">
-L4 — Signal + Ground
-<img width="100%" alt="L4 SIG + GND" src="https://github.com/user-attachments/assets/e3f815d3-db63-4863-9e2a-76b76b9e1210"> </details>
-3D PCB Rendering
-<p align="center"> <img width="100%" alt="3D View" src="https://github.com/user-attachments/assets/591966c6-bb13-4303-9dbd-e98803343782"> </p>
-Power Architecture
+## PCB Layer Architecture
+
+Designed in **Altium Designer**, the 4-layer PCB features a compact high-density layout optimized for clean power distribution and reliable signal return paths.
+
+| Layer | Designation | Description |
+| :--- | :--- | :--- |
+| **L1** | `SIG` | Primary Component Placement & Top Signal Routing |
+| **L2** | `GND` | Solid Internal Ground Plane |
+| **L3** | `PWR` | Dedicated Internal Power Distribution Plane |
+| **L4** | `SIG + GND` | Bottom Signal Routing & Secondary Ground Pour |
+
+### Layer Previews
+
+<details>
+<summary><b>Click to expand layer views</b></summary>
+
+### L1 — Signal
+
+<img width="100%" alt="L1 SIG" src="https://github.com/user-attachments/assets/b8c8f218-e328-44df-8001-f4d3a7ccfeab" />
+
+### L2 — Ground
+
+<img width="100%" alt="L2 GND" src="https://github.com/user-attachments/assets/e4a734b8-dea2-48d9-a056-546f5d2985f7" />
+
+### L3 — Power
+
+<img width="100%" alt="L3 PWR" src="https://github.com/user-attachments/assets/49537f79-96bf-4cfc-a1e3-ba3ef9e25abb" />
+
+### L4 — Signal + Ground
+
+<img width="100%" alt="L4 SIG + GND" src="https://github.com/user-attachments/assets/e3f815d3-db63-4863-9e2a-76b76b9e1210" />
+
+</details>
+
+---
+
+## 3D PCB Rendering
+
+<p align="center">
+  <img width="100%" alt="3D View" src="https://github.com/user-attachments/assets/591966c6-bb13-4303-9dbd-e98803343782" />
+</p>
+
+---
+
+## Power Architecture
 
 The node is designed around a single-cell LiPo battery with integrated charging and power management.
 
+<pre>
         USB Type-C
              │
              ▼
@@ -98,9 +126,47 @@ The node is designed around a single-cell LiPo battery with integrated charging 
  ┌──────────┐ ┌──────────┐
  │ ESP32-C3 │ │  BNO055  │
  └──────────┘ └──────────┘
-Repository Structure
+</pre>
+
+---
+
+## Repository Structure
+
+<pre>
 ├── Altium/               # Schematic & PCB layout project files
 ├── Firmware/             # ESP32-C3 source code and ESP-NOW implementation
 ├── Fabrication/          # Gerber files, BOM, and manufacturing data
 ├── Documentation/        # Hardware documentation and project images
 └── README.md             # Project documentation
+</pre>
+
+---
+
+## Applications
+
+The platform is intended for applications such as:
+
+- Full-body motion capture
+- Biomechanical analysis
+- Wearable robotics
+- Human movement tracking
+- Gesture recognition
+- VR / AR interaction
+- Sports motion analysis
+- Robotics and humanoid control
+
+---
+
+## Project Status
+
+**Status:** In Development
+
+Current development focuses on PCB validation, BNO055 integration, ESP-NOW multi-node communication, and real-time motion-data acquisition.
+
+---
+
+## Project Preview
+
+<p align="center">
+  <img width="100%" alt="ESP32-C3 BNO055 MoCap Node" src="https://github.com/user-attachments/assets/591966c6-bb13-4303-9dbd-e98803343782" />
+</p>
