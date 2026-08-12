@@ -71,19 +71,23 @@ Designed in **Altium Designer**, the 4-layer PCB features a compact high-density
 
 ### L1 — Signal
 
-<img width="100%" alt="L1 SIG" src="https://github.com/user-attachments/assets/b8c8f218-e328-44df-8001-f4d3a7ccfeab" />
+<img width="100%" alt="L1 SIG" src="<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/f1fb24e9-21bb-44eb-9787-6a526ece71a8" />
+" />
 
 ### L2 — Ground
 
-<img width="100%" alt="L2 GND" src="https://github.com/user-attachments/assets/e4a734b8-dea2-48d9-a056-546f5d2985f7" />
+<img width="100%" alt="L2 GND" src="<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/1471e5b8-fee8-45dd-87a0-2817e8b1c78b" />
+" />
 
 ### L3 — Power
 
-<img width="100%" alt="L3 PWR" src="https://github.com/user-attachments/assets/49537f79-96bf-4cfc-a1e3-ba3ef9e25abb" />
+<img width="100%" alt="L3 PWR" src="<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/80c487e6-1b53-4f0f-a7c1-ed7469ed197c" />
+" />
 
 ### L4 — Signal + Ground
 
-<img width="100%" alt="L4 SIG + GND" src="https://github.com/user-attachments/assets/e3f815d3-db63-4863-9e2a-76b76b9e1210" />
+<img width="100%" alt="L4 SIG + GND" src="<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/36fb90a5-a4fa-4f02-b61a-fd2b047c8923" />
+" />
 
 </details>
 
@@ -92,7 +96,8 @@ Designed in **Altium Designer**, the 4-layer PCB features a compact high-density
 ## 3D PCB Rendering
 
 <p align="center">
-  <img width="100%" alt="3D View" src="https://github.com/user-attachments/assets/591966c6-bb13-4303-9dbd-e98803343782" />
+  <img width="100%" alt="3D View" src="<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/dd8d852b-5f37-4f8c-b434-96a32cb43a3c" />
+" />
 </p>
 
 ---
