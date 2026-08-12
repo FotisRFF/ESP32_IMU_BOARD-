@@ -96,7 +96,7 @@ Designed in **Altium Designer**, the 4-layer PCB features a compact high-density
 3D PCB Rendering
 
 <p align="center"> <img width="100%" alt="3D View" src="https://github.com/user-attachments/assets/d8f89d56-4916-4111-9fb2-4058a8d6f97f" /> </p>
----
+
 
 ## Power Architecture
 
