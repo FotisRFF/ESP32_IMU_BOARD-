@@ -1,17 +1,17 @@
-# ESP32-C3 Mini IMU & Charger Board
+# ESP32-C3 Mini BNO055 9-Axis IMU & 1S LiPo Charger Board
 
-An open-source, ultra-compact (35 x 35 mm) wireless motion-tracking platform featuring the **ESP32-C3 Mini**, an onboard Inertial Measurement Unit (IMU), and integrated LiPo battery management.
+An open-source, ultra-compact (35 x 35 mm) wireless motion-tracking platform featuring the **ESP32-C3 Mini**, an onboard **Bosch BNO055 9-axis Absolute Orientation Sensor**, and integrated **single-cell (1S) LiPo battery management**.
 
 ---
 
 ## Key Hardware Features
 
 * **Core Processing & Wireless:** Powered by the **ESP32-C3 Mini** (RISC-V 32-bit single-core CPU up to 160 MHz) with integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE) for real-time telemetry.
-* **Motion Sensing:** Onboard high-precision Inertial Measurement Unit (IMU) for orientation, gesture recognition, and 6-DOF/9-DOF motion tracking.
-* **Battery Power & Charging:** Integrated single-cell LiPo/Li-ion battery charger with onboard power path and status indication.
-* **Ultra-Compact Form Factor:** Dense 35 x 35 mm layout optimized for wearables, miniaturized robotics, or compact IoT nodes.
-* **Power Management:** Efficient onboard 3.3V buck/LDO regulation alongside ESD and reverse-polarity safety protection.
-* **Peripherals & I/O:** USB Type-C interface for programming, debugging, and battery charging alongside exposed GPIOs for expansion.
+* **9-Axis Sensor Fusion:** Features the **Bosch BNO055** smart 9-DOF IMU (3-axis accelerometer, 3-axis gyroscope, and 3-axis magnetometer) with onboard sensor fusion to directly output absolute orientation (Quaternions, Euler angles) and linear acceleration.
+* **1S LiPo Charging & Power:** Dedicated onboard single-cell (1S 3.7V / 4.2V peak) LiPo charger circuit with automatic power path management and charging status LED indicators.
+* **Ultra-Compact Form Factor:** Dense 35 x 35 mm 4-layer layout optimized for wearables, miniaturized robotics, head-tracking, and compact IoT motion nodes.
+* **Power Management:** Efficient onboard 3.3V voltage regulation alongside ESD, overcurrent, and reverse-polarity battery protection.
+* **Peripherals & I/O:** USB Type-C interface for programming, debugging, and 1S LiPo battery charging alongside exposed GPIOs for expansion.
 
 ---
 
@@ -60,5 +60,5 @@ Designed in **Altium Designer**, the PCB utilizes a dense, optimized 4-layer sta
 ```text
 ├── Altium/               # Schematic & PCB layout project files
 ├── Fabrication/          # Gerber files, BOM, and pick-and-place data
-├── Firmware/             # ESP-IDF / Arduino code for IMU reading and Wi-Fi/BLE transmission
+├── Firmware/             # ESP-IDF / Arduino code for BNO055 reading and Wi-Fi/BLE transmission
 └── README.md             # Project documentation
