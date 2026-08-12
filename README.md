@@ -22,7 +22,37 @@ An open-source, ultra-compact (35 x 35 mm) wireless motion-capture (MoCap) node 
  │ Head Node   │ ───────────────────> │                       │
  ├─────────────┤                      │                       │
  │ Torso Node  │ ───────────────────> │  Central Hub / Master │ ──> PC / Host Software
- ├─────────────┤                      │  (Receiver Node)      │     (3D Avatar / MoCap)
+ ├─────────────┤                      │  (Receiver Node)      │     
  │ Arm / Leg   │ ───────────────────> │                       │
  │ Nodes (5-10)│                      │                       │
  └─────────────┘                      └───────────────────────┘
+### Layer Previews
+
+<details>
+<summary><b>Click to expand layer views</b></summary>
+
+* **L1 (SIG):**  
+  <img width="100%" alt="L1 SIG" src="https://github.com/user-attachments/assets/b8c8f218-e328-44df-8001-f4d3a7ccfeab" />
+
+* **L2 (GND):**  
+  <img width="100%" alt="L2 GND" src="https://github.com/user-attachments/assets/e4a734b8-dea2-48d9-a056-546f5d2985f7" />
+
+* **L3 (PWR):**  
+  <img width="100%" alt="L3 PWR" src="https://github.com/user-attachments/assets/49537f79-96bf-4cfc-a1e3-ba3ef9e25abb" />
+
+* **L4 (SIG + GND):**  
+  <img width="100%" alt="L4 SIG+GND" src="https://github.com/user-attachments/assets/e3f815d3-db63-4863-9e2a-76b76b9e1210" />
+
+</details>
+
+---
+
+## 3D PCB Rendering
+
+<p align="center">
+  <img width="100%" alt="3D View" src="https://github.com/user-attachments/assets/591966c6-bb13-4303-9dbd-e98803343782" />
+</p>
+
+---
+
+## Repository Structure
