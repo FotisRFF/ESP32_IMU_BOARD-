@@ -96,7 +96,8 @@ Designed in **Altium Designer**, the 4-layer PCB features a compact high-density
 ## 3D PCB Rendering
 
 <p align="center">
-  <img width="100%" alt="3D View" src="<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/dd8d852b-5f37-4f8c-b434-96a32cb43a3c" />
+  <img width="100%" alt="3D View" src="<img width="3440" height="1392" alt="image" src="<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/d8f89d56-4916-4111-9fb2-4058a8d6f97f" />
+" />
 " />
 </p>
 
@@ -147,31 +148,4 @@ The node is designed around a single-cell LiPo battery with integrated charging 
 
 ---
 
-## Applications
 
-The platform is intended for applications such as:
-
-- Full-body motion capture
-- Biomechanical analysis
-- Wearable robotics
-- Human movement tracking
-- Gesture recognition
-- VR / AR interaction
-- Sports motion analysis
-- Robotics and humanoid control
-
----
-
-## Project Status
-
-**Status:** In Development
-
-Current development focuses on PCB validation, BNO055 integration, ESP-NOW multi-node communication, and real-time motion-data acquisition.
-
----
-
-## Project Preview
-
-<p align="center">
-  <img width="100%" alt="ESP32-C3 BNO055 MoCap Node" src="https://github.com/user-attachments/assets/591966c6-bb13-4303-9dbd-e98803343782" />
-</p>
