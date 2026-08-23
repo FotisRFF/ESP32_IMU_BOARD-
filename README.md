@@ -1,6 +1,6 @@
 # ESP32-C3-BNO055-MOCAP
 
-An open-source, ultra-compact wireless motion-capture node engineered for wearable full-body motion tracking. Built around the **ESP32-C3 Mini** and **Bosch BNO055 9-axis IMU**, this 35 × 35 mm platform is designed for multi-node operation using low-latency **ESP-NOW** communication.
+ Ultra-compact wireless motion-capture node for wearable full-body motion tracking. Built around the **ESP32-C3 Mini** and **Bosch BNO055 9-axis IMU**, this 35 × 37.5 mm platform is designed for multi-node operation using low-latency **ESP-NOW** communication.
 
 ---
 
